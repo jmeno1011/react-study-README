@@ -40,6 +40,7 @@ const chagneInput = (text) => ({
 const initialState = {
   counter: 1,
 };
+
 function reducer(state = initialState, action) {
   switch (action.type) {
     case INCREAMENT:
@@ -50,4 +51,31 @@ function reducer(state = initialState, action) {
       return state;
   }
 }
+```
+
+## 스토어
+
+프로젝트에서 리덕스를 쓰기 위해서는 스토어(store)가 필요하다.  
+스토어는 프로젝트 하나당 한개만 들어갈수 있다.
+
+### 디스패치
+
+디스패치(dispatch)는 스토어의 내장 함수 중 하나이다.  
+디스패치는 액션을 실행시킴  
+dispatch(action) 처럼 사용된다.
+
+### 구독
+
+구독(subscribe)도 스토어의 내장 함수 중 하나이다.
+subscribe 함수 안에 리스너 함수를 파라미터로 넣어 사용함.
+
+```javascript
+// ex) subscribe
+const listener = () => {
+  console.log("상태 업데이트");
+};
+
+const unsubscribe = store.subscribe(listener);
+
+unsubscribe();
 ```
