@@ -28,3 +28,26 @@ const chagneInput = (text) => ({
   text,
 });
 ```
+
+## 리듀서
+
+리듀서(reducer)는 변화를 일으키는 함수임.  
+액션이 발생되면 리듀서가 현재 상태와 전달받은 액션객체를 파라미터로 받아옴  
+위 두가지를 받아서 새로운 상태를 반환
+
+```javascript
+// ex) reducer
+const initialState = {
+  counter: 1,
+};
+function reducer(state = initialState, action) {
+  switch (action.type) {
+    case INCREAMENT:
+      return {
+        counter: state.counter + 1,
+      };
+    default:
+      return state;
+  }
+}
+```
