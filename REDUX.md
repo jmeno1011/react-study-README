@@ -82,4 +82,4 @@ function reducer(state = initialState, action) {
 
 ## 리액트 없이 리덕스 사용해보기
 > ### [실습 링크](https://codesandbox.io/s/condescending-silence-p7l1kc?file=/index.html)
-> <img src="https://raw.githubusercontent.com/jmeno1011/react-study-README/master/%EC%8B%A4%EC%8A%B5%EC%82%AC%EC%A7%84.PNG" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="실습사진1"/>
+> <img src="https://raw.githubusercontent.com/jmeno1011/react-study-README/master/%EC%8B%A4%EC%8A%B5%EC%82%AC%EC%A7%84.PNG" width="782px" height="383px" title="px(픽셀) 크기 설정" alt="실습사진1"/>
