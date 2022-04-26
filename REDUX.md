@@ -79,3 +79,6 @@ function reducer(state = initialState, action) {
 >
 >unsubscribe();
 >```
+
+## 리액트 없이 리덕스 사용해보기
+> ### [실습 링크](https://codesandbox.io/s/condescending-silence-p7l1kc?file=/index.html)
