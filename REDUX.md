@@ -82,3 +82,4 @@ function reducer(state = initialState, action) {
 
 ## 리액트 없이 리덕스 사용해보기
 > ### [실습 링크](https://codesandbox.io/s/condescending-silence-p7l1kc?file=/index.html)
+> <img src="/실습사진.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="실습사진1"/>
