@@ -58,11 +58,11 @@ function reducer(state = initialState, action) {
 프로젝트에서 리덕스를 쓰기 위해서는 스토어(store)가 필요하다.  
 스토어는 프로젝트 하나당 한개만 들어갈수 있다.
 
-### 디스패치
+>### 디스패치
 
-디스패치(dispatch)는 스토어의 내장 함수 중 하나이다.  
-디스패치는 액션을 실행시킴  
-dispatch(action) 처럼 사용된다.
+>디스패치(dispatch)는 스토어의 내장 함수 중 하나이다.  
+>디스패치는 액션을 실행시킴  
+>dispatch(action) 처럼 사용된다.
 
 ### 구독
 
