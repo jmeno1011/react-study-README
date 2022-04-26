@@ -64,12 +64,12 @@ function reducer(state = initialState, action) {
 >디스패치는 액션을 실행시킴  
 >dispatch(action) 처럼 사용된다.
 
-### 구독
+>### 구독
 
-구독(subscribe)도 스토어의 내장 함수 중 하나이다.
-subscribe 함수 안에 리스너 함수를 파라미터로 넣어 사용함.
+>구독(subscribe)도 스토어의 내장 함수 중 하나이다.
+>subscribe 함수 안에 리스너 함수를 파라미터로 넣어 사용함.
 
-```javascript
+>```javascript
 // ex) subscribe
 const listener = () => {
   console.log("상태 업데이트");
@@ -78,4 +78,4 @@ const listener = () => {
 const unsubscribe = store.subscribe(listener);
 
 unsubscribe();
-```
+>```
